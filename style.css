@@ -85,7 +85,7 @@ input,
   list-style: none;
 }
 
-input[type="text"] {
+.text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -98,7 +98,7 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.text:focus {
   color: #333;
 }
 
@@ -139,7 +139,7 @@ input[type="text"]:focus {
   width: 226px;
 }
 
-.task-list__item > input[type="text"] {
+.task-list__item > .text {
   width: 226px;
 }
 
@@ -162,11 +162,11 @@ input[type="text"]:focus {
 
 /* Edit Task */
 
-.task-list__item input[type="text"] {
+.task-list__item .text {
   display: none;
 }
 
-.task-list__item_edit_mode input[type="text"] {
+.task-list__item_edit_mode .text {
   display: inline-block;
   width: 224px;
 }
