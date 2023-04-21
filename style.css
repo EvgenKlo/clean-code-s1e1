@@ -127,7 +127,7 @@ input[type="text"]:focus {
   vertical-align: middle;
 }
 
-.task-list__item > input[type="checkbox"] {
+.task-list__input_checkbox {
   margin: 0 10px;
 }
 
