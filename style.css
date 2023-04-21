@@ -166,11 +166,11 @@ input[type="text"]:focus {
   display: none;
 }
 
-.task-list__item.editMode input[type="text"] {
+.task-list__item_edit_mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.task-list__item.editMode label {
+.task-list__item_edit_mode label {
   display: none;
 }
