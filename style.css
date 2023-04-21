@@ -142,13 +142,13 @@ input[type="text"]:focus {
   width: 226px;
 }
 
-.button_delete img {
+.button__image_delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.button_delete img:hover {
+.button__image_delete:hover {
   transform: rotateZ(0);
 }
 
