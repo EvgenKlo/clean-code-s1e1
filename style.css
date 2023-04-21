@@ -132,7 +132,7 @@ input,
   margin: 0 10px;
 }
 
-.task-list__item > label {
+.task-list__item > .label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -155,7 +155,7 @@ input,
 
 /* Completed */
 
-.task-list_completed label {
+.task-list_completed .label {
   text-decoration: line-through;
   color: #888;
 }
@@ -171,6 +171,6 @@ input,
   width: 224px;
 }
 
-.task-list__item_edit_mode label {
+.task-list__item_edit_mode .label {
   display: none;
 }
