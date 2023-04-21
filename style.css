@@ -114,7 +114,7 @@ input[type="text"]:focus {
 
 /* Task list */
 
-li {
+.task-list__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -123,22 +123,22 @@ li {
   align-items: center;
 }
 
-li > * {
+.task-list__item > * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.task-list__item > input[type="checkbox"] {
   margin: 0 10px;
 }
 
-li > label {
+.task-list__item > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-li > input[type="text"] {
+.task-list__item > input[type="text"] {
   width: 226px;
 }
 
@@ -161,15 +161,15 @@ li > input[type="text"] {
 
 /* Edit Task */
 
-.task-list li input[type="text"] {
+.task-list__item input[type="text"] {
   display: none;
 }
 
-.task-list li.editMode input[type="text"] {
+.task-list__item.editMode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.task-list li.editMode label {
+.task-list__item.editMode label {
   display: none;
 }
