@@ -154,7 +154,7 @@ li > input[type="text"] {
 
 /* Completed */
 
-.task-list#completed-tasks label {
+.completed__task-list label {
   text-decoration: line-through;
   color: #888;
 }
