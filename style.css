@@ -39,7 +39,7 @@ body {
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-item__task-wrapper {
   display: flex;
 }
 
@@ -54,11 +54,11 @@ h3 {
 }
 
 input,
-button {
+.button {
   outline: none;
 }
 
-button {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -68,7 +68,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   color: #3a3a3a;
 }
 
@@ -109,7 +109,7 @@ input[type="text"]:focus {
   margin: 0 0 20px;
 }
 
-input#new-task {
+.add-item__input {
   width: 318px;
 }
 
@@ -143,13 +143,13 @@ li > input[type="text"] {
   width: 226px;
 }
 
-button.delete img {
+.button.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+.button.delete img:hover {
   transform: rotateZ(0);
 }
 
